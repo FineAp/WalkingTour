@@ -15,7 +15,7 @@ public class LPBoat : MonoBehaviour
         if (curSpawnDelay > maxSpawnDelay)
         {
             SpawnEnemy();
-            maxSpawnDelay = Random.Range(0.5f, 1f); //·£´ı Ä«¿îÆ®
+            maxSpawnDelay = Random.Range(0.5f, 1f); //ëœë¤ ì¹´ìš´íŠ¸
             curSpawnDelay = 0;
         }
 
@@ -23,8 +23,8 @@ public class LPBoat : MonoBehaviour
 
     void SpawnEnemy()
     {
-        int ranEnemy = Random.Range(0, 1); //¼ÒÈ­µÉ ¿ÀºêÁ§Æ® ¼ıÀÚ
-        int ranPoint = Random.Range(0, 3); //·£´ı À§Ä¡ ¼ıÀÚ 5°÷
+        int ranEnemy = Random.Range(0, 1); //ì†Œí™”ë  ì˜¤ë¸Œì íŠ¸ ìˆ«ì
+        int ranPoint = Random.Range(0, 3); //ëœë¤ ìœ„ì¹˜ ìˆ«ì 5ê³³
         Instantiate(enemyObjs[ranEnemy],
                     spawnPoints[ranPoint].position,
                     spawnPoints[ranPoint].rotation);
