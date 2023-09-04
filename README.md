@@ -30,8 +30,8 @@ Through visual elements, diverse activities, and exciting stories, it provides e
 Download this game and open the door to a new adventure in Seoul. Enjoy a fantastic journey in Seoul!
 
 
-PlayStore: https://play.google.com/store/apps/details?id=com.WalkingTour.WalkingTourFinal&hl=ko&gl=US
-
 KOREA BLOG: https://blog.naver.com/dlgidgkr/223202098819
+
+BUILD LINK: //play.google.com/store/apps/details?id=com.WalkingTour.WalkingTourFinal&hl=ko&gl=US
 
 ![1](https://github.com/FineAp/WalkingTour/assets/143973266/de5535e4-6765-4c9e-b8d6-78fd00780087)
