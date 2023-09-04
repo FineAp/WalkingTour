@@ -6,7 +6,7 @@ Today, I'd like to introduce an Android app game called "Walking Tour" that prom
 This game offers various entertaining experiences as you walk along the beautiful streets of Seoul, South Korea.
 Join us now on a journey with "Walking Tour."
 
-*Capturing the Real Seoul*
+Capturing the Real Seoul
 "Walking Tour" faithfully reproduces the streets and landmarks located in the heart of Seoul.
 Within the game, you can meet famous places in Seoul and experience the unique characteristics of each area.
 Start from the Han River in Seoul and walk through Jamsil, Olympic Stadium, Samsung, Gangnam, and Seoul National University.
