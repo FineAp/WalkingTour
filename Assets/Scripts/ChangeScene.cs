@@ -7,7 +7,7 @@ public class ChangeScene : MonoBehaviour
 {
     public void ChangeSceneBts()
     {
-        SceneManager.LoadScene("StartScene1"); // °ÔÀÓ¾ÀÀ» ·ÎµåÇÑ´Ù.
+        SceneManager.LoadScene("StartScene1"); // Â°Ã”Ã€Ã“Â¾Ã€Ã€Â» Â·ÃŽÂµÃ¥Ã‡Ã‘Â´Ã™.
     }
 
 }
