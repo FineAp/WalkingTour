@@ -1,2 +1,2 @@
 # WorkingTour
-'Working Tour' is my first app game made with unity
+'Walking Tour' is my first app game made with unity
