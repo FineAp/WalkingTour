@@ -7,10 +7,10 @@ public class ChangeScene2 : MonoBehaviour
 {
     public void ChangeSceneBts()
     {
-        SceneManager.LoadScene("GameScene"); // ê²Œì„ì”¬ì„ ë¡œë“œí•œë‹¤.
+        SceneManager.LoadScene("GameScene"); // °ÔÀÓ¾ÀÀ» ·ÎµåÇÑ´Ù.
     }
     public void ChangeSceneBts2()
     {
-        SceneManager.LoadScene("ShopScene"); // ê²Œì„ì”¬ì„ ë¡œë“œí•œë‹¤.
+        SceneManager.LoadScene("ShopScene"); // °ÔÀÓ¾ÀÀ» ·ÎµåÇÑ´Ù.
     }
 }

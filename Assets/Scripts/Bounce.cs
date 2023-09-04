@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
-    [SerializeField] [Range(50f, 100f)] float speed = 100f; //rangeÂ·Ã ÃÂ¶Ã€Ã½ 
+    [SerializeField] [Range(50f, 100f)] float speed = 100f; //range·Î Á¶Àı 
     public Rigidbody rb;
     float randomX, randomY;
 

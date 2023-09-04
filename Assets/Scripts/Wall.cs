@@ -8,7 +8,7 @@ public class Wall : MonoBehaviour
 
     void Update()
     {
-        Vector3 curPos = transform.position;  //ë•…ì´ ì•ìœ¼ë¡œ ì›€ì§ì´ê²Œ ì„¤ì •í•˜ì˜€ìŒ.
+        Vector3 curPos = transform.position;  //¶¥ÀÌ ¾ÕÀ¸·Î ¿òÁ÷ÀÌ°Ô ¼³Á¤ÇÏ¿´À½.
         Vector3 nextPos = Vector3.forward * speed * Time.deltaTime;
         transform.position = curPos + nextPos;
 

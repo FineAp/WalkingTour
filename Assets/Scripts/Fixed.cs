@@ -7,29 +7,29 @@ public class Fixed : MonoBehaviour
    
     private void Start()
     {
-        SetResolution(); // ì´ˆê¸°ì— ê²Œì„ í•´ìƒë„ ê³ ì •
+        SetResolution(); // ÃÊ±â¿¡ °ÔÀÓ ÇØ»óµµ °íÁ¤
     }
 
-    /* í•´ìƒë„ ì„¤ì •í•˜ëŠ” í•¨ìˆ˜ */
+    /* ÇØ»óµµ ¼³Á¤ÇÏ´Â ÇÔ¼ö */
     public void SetResolution()
     {
-        int setWidth = 1920; // ì‚¬ìš©ì ì„¤ì • ë„ˆë¹„
-        int setHeight = 1080; // ì‚¬ìš©ì ì„¤ì • ë†’ì´
+        int setWidth = 1920; // »ç¿ëÀÚ ¼³Á¤ ³Êºñ
+        int setHeight = 1080; // »ç¿ëÀÚ ¼³Á¤ ³ôÀÌ
 
-        int deviceWidth = Screen.width; // ê¸°ê¸° ë„ˆë¹„ ì €ì¥
-        int deviceHeight = Screen.height; // ê¸°ê¸° ë†’ì´ ì €ì¥
+        int deviceWidth = Screen.width; // ±â±â ³Êºñ ÀúÀå
+        int deviceHeight = Screen.height; // ±â±â ³ôÀÌ ÀúÀå
 
-        Screen.SetResolution(setWidth, (int)(((float)deviceHeight / deviceWidth) * setWidth), true); // SetResolution í•¨ìˆ˜ ì œëŒ€ë¡œ ì‚¬ìš©í•˜ê¸°
+        Screen.SetResolution(setWidth, (int)(((float)deviceHeight / deviceWidth) * setWidth), true); // SetResolution ÇÔ¼ö Á¦´ë·Î »ç¿ëÇÏ±â
 
-        if ((float)setWidth / setHeight < (float)deviceWidth / deviceHeight) // ê¸°ê¸°ì˜ í•´ìƒë„ ë¹„ê°€ ë” í° ê²½ìš°
+        if ((float)setWidth / setHeight < (float)deviceWidth / deviceHeight) // ±â±âÀÇ ÇØ»óµµ ºñ°¡ ´õ Å« °æ¿ì
         {
-            float newWidth = ((float)setWidth / setHeight) / ((float)deviceWidth / deviceHeight); // ìƒˆë¡œìš´ ë„ˆë¹„
-            Camera.main.rect = new Rect((1f - newWidth) / 2f, 0f, newWidth, 1f); // ìƒˆë¡œìš´ Rect ì ìš©
+            float newWidth = ((float)setWidth / setHeight) / ((float)deviceWidth / deviceHeight); // »õ·Î¿î ³Êºñ
+            Camera.main.rect = new Rect((1f - newWidth) / 2f, 0f, newWidth, 1f); // »õ·Î¿î Rect Àû¿ë
         }
-        else // ê²Œì„ì˜ í•´ìƒë„ ë¹„ê°€ ë” í° ê²½ìš°
+        else // °ÔÀÓÀÇ ÇØ»óµµ ºñ°¡ ´õ Å« °æ¿ì
         {
-            float newHeight = ((float)deviceWidth / deviceHeight) / ((float)setWidth / setHeight); // ìƒˆë¡œìš´ ë†’ì´
-            Camera.main.rect = new Rect(0f, (1f - newHeight) / 2f, 1f, newHeight); // ìƒˆë¡œìš´ Rect ì ìš©
+            float newHeight = ((float)deviceWidth / deviceHeight) / ((float)setWidth / setHeight); // »õ·Î¿î ³ôÀÌ
+            Camera.main.rect = new Rect(0f, (1f - newHeight) / 2f, 1f, newHeight); // »õ·Î¿î Rect Àû¿ë
         }
     }
 
