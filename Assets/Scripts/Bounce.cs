@@ -4,20 +4,9 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
-    [SerializeField] [Range(50f, 100f)] float speed = 100f; //range·Î Á¶Àı 
+    [SerializeField] [Range(50f, 100f)] float speed = 100f; //rangeÂ·Ã ÃÂ¶Ã€Ã½ 
     public Rigidbody rb;
     float randomX, randomY;
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     void OnCollisionEnter(Collision collision)
     {
