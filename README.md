@@ -1,5 +1,4 @@
 # WalkingTour
-'Walking Tour' is my first game made with unity(app)
 
 Hello!
 
