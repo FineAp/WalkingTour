@@ -34,4 +34,6 @@ KOREA BLOG: https://blog.naver.com/dlgidgkr/223202098819
 
 BUILD LINK: https://play.google.com/store/apps/details?id=com.WalkingTour.WalkingTourFinal&hl=ko&gl=US
 
+Play Video: https://youtu.be/sUetaw0FA-g
+
 ![1](https://github.com/FineAp/WalkingTour/assets/143973266/de5535e4-6765-4c9e-b8d6-78fd00780087)
